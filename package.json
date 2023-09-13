@@ -9,14 +9,33 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@arco-design/arco-markdown-loader": "^1.15.3",
+    "@arco-design/web-react": "^2.53.0",
     "@types/node": "20.6.0",
-    "@types/react": "18.2.21",
-    "@types/react-dom": "18.2.7",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "browser-image-compression": "^2.0.2",
+    "easy-email-core": "file:../easy-email/packages/easy-email-core",
+    "easy-email-editor": "file:../easy-email/packages/easy-email-editor",
+    "easy-email-extensions": "file:../easy-email/packages/easy-email-extensions",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
+    "final-form": "^4.20.10",
+    "liquidjs": "^10.9.2",
+    "lodash": "^4.17.21",
     "next": "13.4.19",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "qs": "^6.11.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-final-form": "^6.5.9",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.15.0",
+    "react-use": "^17.4.0",
+    "sass": "^1.66.1",
     "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.198",
+    "@types/qs": "^6.9.8"
   }
 }
